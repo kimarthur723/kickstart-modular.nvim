@@ -1,8 +1,8 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
--- use leader e to enter netrw
-vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
+-- use leader e to open oil file explorer
+vim.keymap.set('n', '<leader>e', '<cmd>Oil<cr>', { desc = 'Open file explorer' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
